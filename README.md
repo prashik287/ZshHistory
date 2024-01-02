@@ -4,5 +4,5 @@
 <p>This scripts fix the .zsh_history file corrupt</p>
 
 ```
-git clone https://github.com/prashik287/ZshHistory
+<span style="color:blue">git clone </span> https://github.com/prashik287/ZshHistory
 ```
