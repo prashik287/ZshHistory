@@ -6,5 +6,7 @@
 ```
 git clone  https://github.com/prashik287/ZshHistory
 cd ZshHistory
-
+chmod +x fixzsh
+mv fixzsh /usr/bin/
+fixzsh
 ```
