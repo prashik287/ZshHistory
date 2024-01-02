@@ -5,4 +5,6 @@
 
 ```
 git clone  https://github.com/prashik287/ZshHistory
+cd ZshHistory
+
 ```
