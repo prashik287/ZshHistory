@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#this scripy is used to fix corrupt  .zsh_history 
+clear
+echo -e  "\e[0;31mFixing zsh history ....."
+mv ~/.zsh_history ~/.zsh_history_bad
+strings ~/.zsh_history_bad > ~/.zsh_history
+fc -lnr ~/.zsh_history
+rm ~/.zsh_history_bad
+echo -e "\e[0;32m Fixed Successfully"
